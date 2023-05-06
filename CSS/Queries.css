@@ -1,0 +1,206 @@
+
+/*styles for Large devices*/
+
+@media (max-width: 1200px) {
+  .banner {
+    padding: 16.6vw 0 21.6vw;
+  }
+  .title {
+    font-size: calc(26px + (40 - 26) * ((100vw - 768px) / (1200 - 768)));
+    margin-bottom: 3.33vw;
+  }
+  .sub-title {
+    font-size: calc(16px + (22 - 16) * ((100vw - 768px) / (1200 - 768)));
+    margin-bottom: 2.25vw;
+  }
+  .btn.btn-events {
+    padding: 10px 19px;
+  }
+  button.btn {
+    padding: 2vw 28px;
+  }
+  .company_services h2 {
+    margin-bottom: 1.25vw;
+    font-size: calc(18px + (26 - 18) * ((100vw - 768px) / (1200 - 768)));
+  }
+  .company_services h5 {
+    font-size: calc(14px + (20 - 14) * ((100vw - 768px) / (1200 - 768)));
+  }
+  .company_services {
+    padding: 4.166vw 0 1.66vw;
+  }
+  .services_types {
+    margin: 3.33vw auto;
+  }
+  .service:nth-child(even) .service_icons {
+    padding-right: 3.75vw;
+    padding-left: 0;
+  }
+  .service-title {
+    font-size: calc(17px + (20 - 17) * ((100vw - 768px) / (1200 - 768)));
+    margin-bottom: 1.66vw;
+  }
+  .service_icons {
+    padding-left: 3.75vw;
+  }
+  .service_item:nth-child(even) .service_icons {
+    padding-right: 3.75vw;
+    padding-left: 0;
+  }
+  .service_icons img {
+    height: 9.91vw;
+  }
+  .service_item:nth-child(even) .service_icons {
+    padding-right: 3.75vw;
+    padding-left: 0;
+  }
+  .testimonials {
+    padding: 8.33vw 0px 10.41vw;
+  }
+  .testimonials h3 {
+    font-size: calc(27px + (42 - 27) * ((100vw - 768px) / (1200 - 768)));
+    margin-bottom: 3.33vw;
+  }
+  .news-letter {
+    font-size: calc(30px + (48 - 30) * ((100vw - 768px) / (1200 - 768)));
+    margin-bottom: 2.91vw;
+  }
+  .menu-items {
+    margin-top: 3.33vw;
+  }
+  footer {
+    padding: 8.33vw 1.66vw 10vw;
+  }
+}
+
+
+/*styles for medium devices*/
+
+@media (max-width: 992px) {
+  nav {
+    padding: 10px 0;
+  }
+  .btn.btn-primary {
+    padding: 15px 22px;
+  }
+  .btn.btn-secondary {
+    padding: 13px 65px 13px 44px;
+  }
+  .btn.btn-secondary::before {
+    top: 17px;
+  }
+  .btn.btn-secondary::after {
+    top: 20px;
+  }
+}
+
+/*styles for smal and medium devices*/
+@media (max-width: 767px) {
+    .brand img {
+      height: 35px;
+    }
+    .menus {
+      display: none;
+    }
+    .banner {
+      padding: 90px 0;
+    }
+    .title {
+      font-size: 38px;
+      margin-bottom: 25px;
+    }
+    .sub-title {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      margin: 0 0 7px !important;
+    }
+    .btn.btn-secondary {
+      padding: 13px 81px 13px 45px;
+    }
+    .btn.btn-secondary::before {
+      top: 18px;
+    }
+    .btn.btn-events {
+      padding: 13px 25px;
+    }
+    button.btn {
+      padding: 10px 23px;
+    }
+    .services_types {
+      margin: 30px auto;
+    }
+    .services_types {
+      margin: 30px auto;
+    }
+    .service {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .service:nth-child(2n) {
+      padding-right: 0;
+      flex-direction: column;
+    }
+    .service p {
+      font-size: 16px;
+      max-width: 380px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .service-title {
+      font-size: 20px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .service_icons img {
+      height: 110px;
+    }
+    .service_item p {
+      font-size: 16px;
+      max-width: 380px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .service_item:nth-child(2n) {
+      padding-right: 0;
+      flex-direction: column;
+    }
+    .service_item {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .company_services {
+      padding: 50px 0 10px;
+    }
+    .company_services h2 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .company_services h5 {
+      font-size: 18px;
+    }
+    .testimonials {
+      padding: 50px 0 50px;
+    }
+    .testimonials h3 {
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+    .news-letter {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    .menu-items::before {
+      content: none;
+    }
+    .menu-items {
+      margin-top: 15px;
+      padding: 0 15px;
+    }
+    footer {
+      padding: 60px 0;
+    }
+  }
